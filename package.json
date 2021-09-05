@@ -1,0 +1,23 @@
+{
+  "name": "ifc-processing-js",
+  "version": "1.0.0",
+  "description": "Processing ifc files using JS to generate the analytical model of a structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osasanchezme/ifc-processing-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osasanchezme/ifc-processing-js/issues"
+  },
+  "homepage": "https://github.com/osasanchezme/ifc-processing-js#readme",
+  "dependencies": {
+    "web-ifc": "0.0.24"
+  }
+}
