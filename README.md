@@ -10,6 +10,11 @@ This repo is going to be using the `web-ifc` module mainly. This awesome project
 2. Run `npm i` to install 
 3. Run `node init.js`
 
+## List of tasks to be completed
+- [ ] Get beam start and end coordinates
+- [ ] Get columns start and end coordinates
+- [ ] Migrate all the Python functions to have the same functionality
+
 ## About the file structure
 ```
 parser              All the scripts that help to parse the IFC file

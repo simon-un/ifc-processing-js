@@ -8,6 +8,7 @@ const filename = "test/5_Storeys_RectangularBeams.ifc";
 const start_time = Date.now();
 console.log("[0.00s] Started the application...");
 (async () => {
+    // Read the IFC file
     const { ifc_api, modelID } = await parser.loadIfcFile(filename);
     console.log(
         `[${utils.getEnlapsedSeconds(
@@ -18,7 +19,7 @@ console.log("[0.00s] Started the application...");
     // parser.getAllBeams(ifc_api, modelID)
 
     // Parse to json the whole model
-    parser.writeJSONToFile(ifc_api, modelID, 'result.json')
+    // parser.writeJSONToFile(ifc_api, modelID, 'result.json')
 
     ifc_api.CloseModel(modelID);
 })();
